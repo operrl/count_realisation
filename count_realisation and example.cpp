@@ -25,8 +25,9 @@ int summ_num(int a){
 
 int main(){
 	int main_res;
-	cout << "Ââåäèòå ÷èñëî, ñóììó öèôğ êîòîğîãî íóæíî ïîñ÷èòàòü: ";
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã·Ã¨Ã±Ã«Ã®, Ã±Ã³Ã¬Ã¬Ã³ Ã¶Ã¨Ã´Ã° ÃªÃ®Ã²Ã®Ã°Ã®Ã£Ã® Ã­Ã³Ã¦Ã­Ã® Ã¯Ã®Ã±Ã·Ã¨Ã²Ã Ã²Ã¼: ";
 	cin >> main_res;
 	main_res = summ_num(main_res);
-	return main_res;
+	cout << main_res;
+	return 0;
 }
